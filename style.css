@@ -1,0 +1,182 @@
+:root{
+    --Color: darkred, #C67F7F, #ececec;
+    --Font:  Nova Square,  Rajdhani;
+}
+
+header{
+    min-height: 100vh;
+    background:url(./media/mountains2.png), linear-gradient( #ececec, transparent), url(./media/switzerland-862870_1920.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+     
+}
+/* titolo principale */
+.titolo-principale{
+    color: darkred;
+    font-size:100px ;
+    letter-spacing: 70px;    
+}
+
+/* citazione */
+.citazione{
+margin-bottom: 80px; 
+font-size: larger; 
+
+
+}
+/* quotation */
+.quotation{
+    color: darkred;
+    margin: 10px;
+    
+}
+/* body */
+body{
+    background-color: #ececec
+}
+/* icone delle 4 colonne */
+.logo{
+    height: 10vh;
+    width: 30vh;
+    color: darkred;
+} 
+
+/* sezione-2 */
+.altezza-btn{
+    background-image: url(./media/trees2.png);
+    background-size: cover;
+    height: 100vh;
+    
+   
+}
+
+
+.list{
+   
+    font-family: Nova Square, Rajdhani, sans-serif, monospace;
+}
+/* bordo-bottone */
+.bordo{
+    border-bottom: 2px solid darkred ;
+    position: relative;
+}
+.bottone{
+    color: #ececec ;
+    background-color: darkred ;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/* pallino sul bordo delle colonne (pseudoelemento) */
+.bordo::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#ececec ;
+    border-radius: 50%;
+    border: 1px solid darkred;
+}
+/* h2-h3-h4 */
+.titolo{
+   
+    color: darkred;
+    font-family: "Nova Square", sans-serif;
+    letter-spacing: monospace;
+}
+/* dimensione alberi grigi sezione-3 */
+.altezza-image{
+    width:50%;
+}
+
+
+
+/* margine sezione-2 */
+.margine{
+    margin-top: 100px;
+}
+
+/* colore h2-h3-h4-h5 */
+h2,h3,h4,h5{
+    color: darkred;
+}
+/* dimensione h4-h5 */
+.testo{
+    font-weight:400;
+}
+/* bordo colonne sezione-3 */
+.bordosx{
+   border-left: 2px solid darkred;
+   position: relative;
+   z-index: 999;
+  
+}
+.p-riga{
+    padding-left: 150px;
+}
+/* pallino sezione-3 pseudoelemento */
+.bordosx::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top:0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    background-color:#ececec ;
+    border-radius: 50%;
+    border: 1px solid darkred;
+   
+}
+/* forma immagini sezione 4  */
+.cerchio{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:2px solid darkred;
+    padding: 5px;
+}
+/* forma immagini sezione 5  */
+.cerchio-1{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    border:2px solid darkred;
+    padding: 5px; 
+    
+}
+/* paragrafo icone social sezione-4 */
+.p-logo{
+    color: darkred;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* background del footer */
+.footer-1{
+    background-color: darkred;
+    
+}
+/* testo lista footer */
+.testo-f{
+    color: white;
+    font-family: "Nova Square", sans-serif;
+    letter-spacing: monospace;
+}
+/* lista footer */
+.elenco-puntato{
+    list-style-type : none;
+    text-align: center;
+}
